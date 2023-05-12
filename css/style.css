@@ -53,9 +53,13 @@ nav a:hover{
    transition-duration: .5s;
    margin-right: -10px;
 }
+.main{
+    align-items: center; 
+    margin: 0 auto;
+    text-align: center;
+}
 .carousel{
     width: 50vw;
-    margin: 0 auto;
     margin-top: 20px;
 }
 .carousel img{
@@ -65,4 +69,13 @@ nav a:hover{
     margin: 20px auto;
     width: 800px;
     
+}
+.flexboxteljes{
+    display: flex;
+}
+.kepekbal{
+    width: 250px;
+}
+.kepekjobb{
+    width: 250px;
 }
