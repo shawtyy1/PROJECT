@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+body{
+    background-image: url(../pics/230804_source.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(29,27,21);
+
+}
+.cards{
+    display: flex;
+}
+
