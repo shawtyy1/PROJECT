@@ -1,8 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+img{
+    width: 100%;
+}
+body{
+   background-image: linear-gradient(to right, gray, rgb(214, 212, 212), white, rgb(243, 239, 239), gray);
+   font-family: 'Wix Madefor Display', sans-serif;
+}
 header{
-    background-image:url();
+    background-image: url(../pics/pexels-mak-jp-15318429.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    position: relative;
+
+}
+.navigacio{
+    display: flex;
+    gap: 80px;
+    
+}
+.navigacio h1{
+    font-size: 4rem;
+    text-shadow: 5px 5px rgba(165, 165, 165);
+    display: flex;
+    align-items: center;
+    
+}
+nav{
+    display: flex;
+    margin-top: 50px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    margin-bottom: 20px;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+nav a:hover{
+   margin-left: 10px;
+   transition-duration: .5s;
+   margin-right: -10px;
+}
+.carousel{
+    width: 50vw;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.carousel img{
+    border-radius: 20px;
+}
+.card{
+    margin: 20px auto;
+    width: 800px;
+    
 }
