@@ -12,11 +12,23 @@ img {
 body{
     background-image: url(../pics/230804_source.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
     background-color: rgb(29,27,21);
 
 }
-.cards{
+
+.kartyak{
     display: flex;
+    margin: 150px 50px 150px 50px;
 }
+a .cardok{
+    margin-bottom: 40px;
+    transform: translateY(-2rem);
+    transition-duration: .5s;
+}
+a .cardok:hover{
+    transform: translateY(2rem);
+    transition-duration: .5s;
+}
+
 

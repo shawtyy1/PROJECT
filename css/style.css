@@ -16,18 +16,18 @@ body {
 }
 
 header {
-    background-image: url(../pics/pexels-mak-jp-15318429.jpg);
+    background-image: url(../pics/xd.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 250px;
     position: relative;
+    margin-bottom: 20px;
 
 }
 
 .navigacio {
     display: flex;
-    gap: 80px;
-
+    
 }
 
 .navigacio h1 {
@@ -35,7 +35,8 @@ header {
     text-shadow: 5px 5px rgba(165, 165, 165);
     display: flex;
     align-items: center;
-
+    margin: 40px;
+    margin-left: 120px;
 }
 
 nav {
@@ -57,6 +58,7 @@ nav a {
     text-decoration: none;
     font-size: 1.5rem;
     padding: 10px;
+    text-shadow: 2px 2px 2px gray;
 }
 
 nav a:hover {
@@ -71,7 +73,6 @@ nav a:hover {
 }
 
 .carousel {
-    width: 50vw;
     margin-top: 20px;
 }
 
@@ -81,7 +82,6 @@ nav a:hover {
 
 .card {
     margin: 20px auto;
-    width: 800px;
     box-shadow: 2px 2px 2px 2px rgb(177, 174, 174);
 }
 
@@ -90,14 +90,12 @@ nav a:hover {
 }
 
 .kepekbal {
-    width: 300px;
     box-shadow: 5px 5px 30px rgb(141, 137, 137);
     padding: 20px;
 }
 
 .kepekjobb {
-    width: 300px;
-    box-shadow: 5px 5px 30px rgb(141, 137, 137);
+    box-shadow: -5px -5px 30px rgb(141, 137, 137);
     padding: 20px;
 }
 
