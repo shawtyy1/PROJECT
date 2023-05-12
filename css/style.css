@@ -21,8 +21,7 @@ header {
     background-repeat: no-repeat;
     height: 250px;
     position: relative;
-    margin-bottom: 20px;
-
+    margin-bottom: 0;
 }
 
 .navigacio {
@@ -92,6 +91,7 @@ nav a:hover {
 .kepekbal {
     box-shadow: 5px 5px 30px rgb(141, 137, 137);
     padding: 20px;
+    margin-top: 0;
 }
 
 .kepekjobb {
