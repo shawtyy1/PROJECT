@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-img{
+
+img {
     width: 100%;
 }
-body{
-   background-image: linear-gradient(to right, gray, rgb(214, 212, 212), white, rgb(243, 239, 239), gray);
-   font-family: 'Wix Madefor Display', sans-serif;
+
+body {
+    background-image: linear-gradient(to right, gray, rgb(214, 212, 212), white, rgb(243, 239, 239), gray);
+    font-family: 'Wix Madefor Display', sans-serif;
 }
-header{
+
+header {
     background-image: url(../pics/pexels-mak-jp-15318429.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,71 +23,110 @@ header{
     position: relative;
 
 }
-.navigacio{
+
+.navigacio {
     display: flex;
     gap: 80px;
-    
+
 }
-.navigacio h1{
+
+.navigacio h1 {
     font-size: 4rem;
     text-shadow: 5px 5px rgba(165, 165, 165);
     display: flex;
     align-items: center;
-    
+
 }
-nav{
+
+nav {
     display: flex;
     margin-top: 50px;
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
 }
-nav li{
+
+nav li {
     margin-bottom: 20px;
 }
-nav a{
+
+nav a {
     color: black;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.5rem;
     padding: 10px;
 }
-nav a:hover{
-   margin-left: 10px;
-   transition-duration: .5s;
-   margin-right: -10px;
+
+nav a:hover {
+    margin-left: 10px;
+    transition-duration: .5s;
+    margin-right: -10px;
 }
-.main{
-    align-items: center; 
+nav ul ul {
+    position: absolute;
+    list-style-type: none;
+}
+
+nav ul ul li {
+    transform: translateX(-2rem);
+    transition: height 0.3s, opacity 0.2s;
+}
+
+nav ul ul li a {
+    display: none;
+}
+
+nav ul li:hover ul li {
+    height: 2.5rem;
+    opacity: 1;
+}
+
+nav ul li:hover ul li a {
+    display: inline-block;
+    width: 10rem;
+}
+
+.main {
+    align-items: center;
     margin: 0 auto;
     text-align: center;
 }
-.carousel{
+
+.carousel {
     width: 50vw;
     margin-top: 20px;
 }
-.carousel img{
+
+.carousel img {
     border-radius: 20px;
 }
-.card{
+
+.card {
     margin: 20px auto;
     width: 800px;
-    
+    box-shadow: 2px 2px 2px 2px rgb(177, 174, 174);
 }
-.flexboxteljes{
+
+.flexboxteljes {
     display: flex;
 }
-.kepekbal{
-    width: 350px;
-    margin-top: 50px;
-    margin-left: 20px;
+
+.kepekbal {
+    width: 300px;
+    box-shadow: 5px 5px 30px rgb(141, 137, 137);
+    padding: 20px;
 }
-.kepekjobb{
-    width: 350px;
-    margin-top: 50px;
-    margin-right: 20px;
+
+.kepekjobb {
+    width: 300px;
+    box-shadow: 5px 5px 30px rgb(141, 137, 137);
+    padding: 20px;
 }
+
 .kepekbal img,
-.kepekjobb img{
+.kepekjobb img {
     border-radius: 50%;
+    margin-bottom: 250px;
 }
