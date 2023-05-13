@@ -10,19 +10,19 @@ img {
     width: 100%;
 }
 body{
+    padding: 50px;
     background-image: url(../pics/230804_source.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgb(29,27,21);
-
+    background-size: cover;
 }
 
 .kartyak{
+    justify-content: center;
     display: flex;
-    margin: 150px 50px 150px 50px;
 }
 a .cardok{
-    margin-bottom: 90px;
+    margin-bottom: 80px;
     transform: translateY(-2rem);
     transition-duration: .5s;
 }
