@@ -32,6 +32,7 @@ body{
     display: flex;
     box-shadow: 5px 5px 50px rgb(97, 96, 96);
     margin-bottom: 50px;
+    opacity: .9;
 }
 .card2{
     display:block;
@@ -43,7 +44,7 @@ body{
     box-shadow: 5px 5px 20px black;
 }
 .card1:hover + .card2{
-    opacity: 1;
+    opacity: .9;
     transition-delay: .2s;
     transform: translateY(11rem);
     transition-duration: .4s;
@@ -53,5 +54,5 @@ i{
     color: white;
     text-shadow: 5px 5px 5px white;
     font-size: 2rem;
-    background-color: rgba(172, 170, 170, 0.1);
+    
 }
