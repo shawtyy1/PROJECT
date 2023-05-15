@@ -12,7 +12,11 @@ img {
 
 body {
     background-image: linear-gradient(to right, gray, rgb(214, 212, 212), white, rgb(243, 239, 239), gray);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     font-family: 'Wix Madefor Display', sans-serif;
+    min-width: 700px;
 }
 
 header {
