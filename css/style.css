@@ -13,8 +13,8 @@ img {
 body {
     background-image: linear-gradient(to right, gray, rgb(214, 212, 212), white, rgb(243, 239, 239), gray);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    
     font-family: 'Wix Madefor Display', sans-serif;
     min-width: 700px;
 }
@@ -106,4 +106,25 @@ nav a:hover {
 .kepekjobb img {
     border-radius: 50%;
     margin-bottom: 250px;
+}
+.card-title{
+    font-weight: 700;
+}
+.form-label{
+    font-weight: 700;
+}
+.btn{
+    background-color: gray;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(80, 79, 79);
+    transition-duration: .3s;
+}
+
+.urlap{
+    margin: 0 auto;
 }
